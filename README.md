@@ -21,4 +21,3 @@ Open `MacSysTools.xcodeproj` in Xcode and press ⌘R to run.
 
 ## Author
 Lionel Mosley
-EOF
