@@ -1,6 +1,3 @@
-cd /Users/lmosley/Documents/XCode/MacSysTools
-
-cat > README.md << 'EOF'
 # MacSysTools
 
 A native macOS system administration app built with SwiftUI and Xcode 26, 
