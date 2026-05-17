@@ -1,31 +1,37 @@
 {
   "images" : [
     {
+      "filename" : "icon-512-maskable 6.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "icon-512-maskable 5.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "icon-512-maskable 4.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "icon-512-maskable 3.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "icon-512-maskable 2.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "icon-512-maskable 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
@@ -36,6 +42,7 @@
       "size" : "256x256"
     },
     {
+      "filename" : "icon-512-maskable.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"

@@ -35,16 +35,6 @@
 			path = MacSysTools;
 			sourceTree = "<group>";
 		};
-		05C2CA2F2FA9DE9400356A5D /* MacSysToolsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MacSysToolsTests;
-			sourceTree = "<group>";
-		};
-		05C2CA392FA9DE9400356A5D /* MacSysToolsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MacSysToolsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				05C2CA212FA9DE9200356A5D /* MacSysTools */,
-				05C2CA2F2FA9DE9400356A5D /* MacSysToolsTests */,
-				05C2CA392FA9DE9400356A5D /* MacSysToolsUITests */,
 				05C2CA202FA9DE9200356A5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				05C2CA2E2FA9DE9400356A5D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				05C2CA2F2FA9DE9400356A5D /* MacSysToolsTests */,
-			);
 			name = MacSysToolsTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				05C2CA382FA9DE9400356A5D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				05C2CA392FA9DE9400356A5D /* MacSysToolsUITests */,
 			);
 			name = MacSysToolsUITests;
 			packageProductDependencies = (
@@ -394,15 +376,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UDU537PT2Q;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,15 +409,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UDU537PT2Q;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
